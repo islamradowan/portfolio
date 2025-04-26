@@ -41,7 +41,7 @@
   
       <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
         <!-- Team Member 1 -->
-        <li @click="selectedMember = { name: 'Radowan Islam', title: 'Developer', bio: 'I have over 5 years of experience... ID: 221410003', image: '/img/team photo/Radowan Islam.jpg' }; open = true" class="cursor-pointer">
+        <li @click="selectedMember = { name: 'Radowan Islam', title: 'Developer', bio: 'I have over 5 years of experience... ID: 221410003', image: 'img/team photo/Radowan Islam.jpg' }; open = true" class="cursor-pointer">
           <div class="flex items-center gap-x-6">
             <img src="img/team photo/Radowan Islam.jpg" class="size-16 rounded-full" alt="Radowan Islam">
             <div>
@@ -52,7 +52,7 @@
         </li>
   
         <!-- Team Member 2 -->
-        <li @click="selectedMember = { name: 'Nadim Mahammud Emon', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410006', image: '/img/team photo/Nadim Mahammud Emon.jpg' }; open = true" class="cursor-pointer">
+        <li @click="selectedMember = { name: 'Nadim Mahammud Emon', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410006', image: 'img/team photo/Nadim Mahammud Emon.jpg' }; open = true" class="cursor-pointer">
           <div class="flex items-center gap-x-6">
             <img class="size-16 rounded-full" src="img/team photo/Nadim Mahammud Emon.jpg" alt="Nadim Mahammud Emon">
             <div>
@@ -63,7 +63,7 @@
         </li>
   
         <!-- Team Member 3 -->
-        <li @click="selectedMember = { name: 'Khorshed Alom', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410002', image: '/img/team photo/Khorshed Alom.jpg' }; open = true" class="cursor-pointer">
+        <li @click="selectedMember = { name: 'Khorshed Alom', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410002', image: 'img/team photo/Khorshed Alom.jpg' }; open = true" class="cursor-pointer">
           <div class="flex items-center gap-x-6">
             <img class="size-16 rounded-full" src="img/team photo/Khorshed Alom.jpg" alt="Khorshed Alom">
             <div>
@@ -74,7 +74,7 @@
         </li>
   
         <!-- Team Member 4 -->
-        <li @click="selectedMember = { name: 'Sabrina Mahazabin Urmi', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410001', image: '/img/team photo/Sabrina Mahazabin Urmi.jpg' }; open = true" class="cursor-pointer">
+        <li @click="selectedMember = { name: 'Sabrina Mahazabin Urmi', title: 'Developer', bio: 'Five years of experience. Co-Developer at NextVenture... ID: 221410001', image: 'img/team photo/Sabrina Mahazabin Urmi.jpg' }; open = true" class="cursor-pointer">
           <div class="flex items-center gap-x-6">
             <img class="size-16 rounded-full" src="img/team photo/Sabrina Mahazabin Urmi.jpg" alt="Sabrina Mahazabin Urmi">
             <div>
@@ -129,25 +129,6 @@
       </div>
     </div>
   </footer>
-  
-
-  <!-- JavaScript to Handle Pagination -->
-  <script>
-    function showPage(page) {
-      const allProjects = document.querySelectorAll('.project-item');
-      allProjects.forEach(project => {
-        project.classList.add('hidden'); // Hide all projects
-      });
-
-      const selectedProjects = document.querySelectorAll('.page-' + page);
-      selectedProjects.forEach(project => {
-        project.classList.remove('hidden'); // Show selected page projects
-      });
-    }
-
-    // By default show page 1
-    showPage(1);
-  </script>
 
 </body>
 </html>
