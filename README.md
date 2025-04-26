@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a **Personal Portfolio Website** project built with **HTML5** and **TailwindCSS**.  
+This is a **Personal Portfolio Website** project built with **HTML5** and **TailwindCSS** *.  
 It includes pages like **Home**, **Projects**, **About**, and **Contact**.
 
 ---
@@ -20,4 +20,25 @@ It includes pages like **Home**, **Projects**, **About**, and **Contact**.
 ---
 
 ## 📁 Project Structure
+
+/
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+├── img/
+│   ├── logo/
+│   │   └── logo.jpg
+│   ├── team photo/
+│       └── Nadim Mahammud Emon.jpg
+│       └── Khorshed Alom.jpg
+│       └── Sabrina Mahazabin Urmi.jpg
+├── project ss/
+│       └── 
+│       └── 
+│       └── 
+│       └──
+├── js/
+│   └── script.js 
+├── README.md
 
