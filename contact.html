@@ -109,7 +109,7 @@
 <footer class="bg-white border-t">
     <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
       <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
-        <p class="text-sm text-gray-500">© 2025 Your Name. All rights reserved.</p>
+        <p class="text-sm text-gray-500">© 2025 NextVenture. All rights reserved.</p>
         <div class="flex space-x-4">
           <a href="#" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Facebook</span>
@@ -133,25 +133,7 @@
       </div>
     </div>
   </footer>
-  
 
-  <!-- JavaScript to Handle Pagination -->
-  <script>
-    function showPage(page) {
-      const allProjects = document.querySelectorAll('.project-item');
-      allProjects.forEach(project => {
-        project.classList.add('hidden'); // Hide all projects
-      });
-
-      const selectedProjects = document.querySelectorAll('.page-' + page);
-      selectedProjects.forEach(project => {
-        project.classList.remove('hidden'); // Show selected page projects
-      });
-    }
-
-    // By default show page 1
-    showPage(1);
-  </script>
 
 </body>
 </html>
