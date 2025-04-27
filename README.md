@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a **Personal Portfolio Website** project built with **HTML5** and **TailwindCSS** *.  
+This is a **Personal Portfolio Website** project built with **HTML5** , **TailwindCSS** **JavaScript** and **Alpine js** *.  
 It includes pages like **Home**, **Projects**, **About**, and **Contact**.
 
 ---
